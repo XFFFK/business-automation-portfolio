@@ -34,6 +34,10 @@ python -m unittest discover -s tests -q
 
 Each project has its own README, sample inputs and boundaries. The full planning and evidence rules are in [PLAN.md](PLAN.md), and resume wording is in [RESUME_DRAFT.md](RESUME_DRAFT.md).
 
+## Reusable utility
+
+The standalone [CSV Guard](https://github.com/XFFFK/csv-guard) repository turns the data-quality idea into a zero-dependency CSV/JSONL contract validator and reusable GitHub Action.
+
 ## Why this portfolio exists
 
 The projects are deliberately small enough to explain in an interview and complete enough to run from a clean checkout. They focus on problem definition, workflow design, data quality, traceability and validation rather than inflated production claims.
