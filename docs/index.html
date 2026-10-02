@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reproducible business automation projects for career transition portfolios.">
+  <title>Business Automation Portfolio</title>
+  <style>
+    :root { --ink:#17212b; --muted:#586879; --paper:#f7fafc; --card:#fff; --line:#dbe5ec; --accent:#1769aa; --accent-soft:#e8f3fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    .wrap { width:min(1060px,calc(100% - 40px)); margin:auto; }
+    header { padding:72px 0 44px; background:linear-gradient(135deg,#e8f3fb,#f7fafc 60%); border-bottom:1px solid var(--line); }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.8rem; }
+    h1 { max-width:760px; margin:12px 0; font-size:clamp(2.2rem,6vw,4.4rem); line-height:1.04; letter-spacing:-.04em; }
+    .lede { max-width:720px; color:var(--muted); font-size:1.15rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+    a.button { padding:10px 16px; border-radius:8px; text-decoration:none; background:var(--accent); color:white; font-weight:700; }
+    a.button.secondary { background:white; color:var(--accent); border:1px solid var(--line); }
+    main { padding:44px 0 72px; }
+    h2 { margin:0 0 16px; font-size:1.8rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+    .card { display:flex; flex-direction:column; padding:24px; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:0 8px 22px rgba(23,33,43,.05); }
+    .card h3 { margin:0 0 8px; }
+    .card p { color:var(--muted); margin:0 0 18px; }
+    .card a { margin-top:auto; color:var(--accent); font-weight:700; }
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin:26px 0 52px; }
+    .stat { padding:18px; background:var(--accent-soft); border-radius:12px; }
+    .stat strong { display:block; font-size:1.7rem; }
+    .stat span { color:var(--muted); }
+    .note { margin-top:44px; padding:20px 24px; background:#fff8e8; border:1px solid #f1dfb6; border-radius:12px; color:#5d4a21; }
+    footer { padding:24px 0; border-top:1px solid var(--line); color:var(--muted); font-size:.92rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Business automation portfolio</div>
+      <h1>Small tools that turn messy operations into clear next steps.</h1>
+      <p class="lede">Three local, reproducible projects for product operations, process operations, operations analysis and project delivery roles. Each project starts with a business problem, defines its rules, and shows evidence that the result works.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/XFFFK/business-automation-portfolio">View the repository</a>
+        <a class="button secondary" href="https://github.com/XFFFK/business-automation-portfolio/releases/tag/v0.1.0">Read v0.1.0</a>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="stats">
+      <div class="stat"><strong>3</strong><span>reproducible projects</span></div>
+      <div class="stat"><strong>13</strong><span>automated tests</span></div>
+      <div class="stat"><strong>4/4</strong><span>fixed retrieval eval cases</span></div>
+      <div class="stat"><strong>0</strong><span>paid APIs required</span></div>
+    </div>
+    <h2>Explore the projects</h2>
+    <section class="grid" aria-label="Projects">
+      <article class="card"><h3>Priority workflow</h3><p>Import a small task list, validate the fields, classify P0–P3 priority and deadline risk, then produce a Markdown daily report and JSON output.</p><a href="https://github.com/XFFFK/business-automation-portfolio/tree/main/project1_workflow">Open project 1 →</a></article>
+      <article class="card"><h3>Data quality report</h3><p>Check a synthetic order file for missing values, duplicate IDs, invalid amounts, statuses and dates before a report is used.</p><a href="https://github.com/XFFFK/business-automation-portfolio/tree/main/project2_quality_dashboard">Open project 2 →</a></article>
+      <article class="card"><h3>Cited document assistant</h3><p>Retrieve the most relevant handbook paragraphs, return file-and-paragraph citations, and say when the source does not contain an answer.</p><a href="https://github.com/XFFFK/business-automation-portfolio/tree/main/project3_report_assistant">Open project 3 →</a></article>
+    </section>
+    <div class="note"><strong>Evidence boundary.</strong> All data is synthetic or local test output. The repository does not claim customer adoption, business savings, revenue impact or production scale.</div>
+  </main>
+  <footer><div class="wrap">MIT licensed · Built to be explained in an interview, reproduced from a clean checkout, and extended with new synthetic cases.</div></footer>
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 A small, reproducible portfolio of business-facing automation projects for career transition roles such as product operations, process operations, operations analysis, and project delivery.
 
+**Project site:** [business-automation-portfolio.pages.dev](https://XFFFK.github.io/business-automation-portfolio/)
+
 这组项目展示如何把运营问题拆成流程、规则、数据质量检查和带证据的决策材料。项目使用本地合成数据，重点是可运行、可解释、可复现。
 
 ## Projects
