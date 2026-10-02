@@ -1,0 +1,5 @@
+id,title,owner,due_date,status,impact
+OPS-001,修复客户导入失败记录,Lin,2026-10-01,open,high
+OPS-002,整理本周销售回访,Mina,2026-10-04,in_progress,medium
+OPS-003,确认新员工账号权限,Kai,2026-10-10,blocked,medium
+OPS-004,归档已完成合同,Lin,2026-09-29,done,low

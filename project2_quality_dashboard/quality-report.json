@@ -1,0 +1,55 @@
+{
+  "rows": 7,
+  "issue_count": 7,
+  "issue_types": {
+    "duplicate_id": 1,
+    "invalid_date": 1,
+    "invalid_status": 1,
+    "missing": 2,
+    "negative_amount": 2
+  },
+  "issues": [
+    {
+      "row": 3,
+      "type": "negative_amount",
+      "field": "amount",
+      "detail": "-12.00"
+    },
+    {
+      "row": 4,
+      "type": "negative_amount",
+      "field": "amount",
+      "detail": "-12.00"
+    },
+    {
+      "row": 5,
+      "type": "missing",
+      "field": "customer_id",
+      "detail": "required value is empty"
+    },
+    {
+      "row": 5,
+      "type": "invalid_date",
+      "field": "created_at",
+      "detail": "2026-09-31"
+    },
+    {
+      "row": 6,
+      "type": "missing",
+      "field": "amount",
+      "detail": "required value is empty"
+    },
+    {
+      "row": 7,
+      "type": "invalid_status",
+      "field": "status",
+      "detail": "unknown"
+    },
+    {
+      "row": "multiple",
+      "type": "duplicate_id",
+      "field": "order_id",
+      "detail": "O1002 appears 2 times"
+    }
+  ]
+}
